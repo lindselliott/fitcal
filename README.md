@@ -10,7 +10,7 @@ To Run the converter just hop in the fitcal directory and use the path to your e
 python fitcal.py fitbit_export_file.csv
 ```
 
-You can export your Fitbit date [here.](https://www.fitbit.com/premium/export)
+You can export your Fitbit data [here.](https://www.fitbit.com/premium/export)
 
 ## Output:
 A .ics file will be exported in the same directory you are running the converter. You can use this file to import into your calendar and have all your data in one place.  
