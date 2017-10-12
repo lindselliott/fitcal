@@ -12,3 +12,7 @@ python fitcal.py fitbit_export_file.csv
 
 ## Output:
 A .ics file will be exported in the same directory you are running the converter. You can use this file to import into your calendar and have all your data in one place.  
+
+## References: 
+
+ICS Standards: [RFC 2445](https://tools.ietf.org/html/rfc2445#section-4.6.3)
