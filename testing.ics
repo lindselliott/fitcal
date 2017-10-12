@@ -4,8 +4,8 @@ VERSION:2.0
 BEGIN:VEVENT
 SUMMARY:Fitbit Activity for 2017-02-01
 UID:Fitbit-Activity-20170201
-DTSTART;TZID=America/Toronto:20170201T235800
-DTEND;TZID=America/Toronto:20170201T235900
+DTSTART;TZID=America/Toronto:20170201T000000
+DTEND;TZID=America/Toronto:20170201T010000
 DESCRIPTION:	Activity Calories: 862\n
 	Distance: 4.35\n
 	Minutes Lightly Active: 256\n
@@ -19,8 +19,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Fitbit Activity for 2017-02-02
 UID:Fitbit-Activity-20170202
-DTSTART;TZID=America/Toronto:20170202T235800
-DTEND;TZID=America/Toronto:20170202T235900
+DTSTART;TZID=America/Toronto:20170202T000000
+DTEND;TZID=America/Toronto:20170202T010000
 DESCRIPTION:	Activity Calories: 1,023\n
 	Distance: 5.94\n
 	Minutes Lightly Active: 287\n
@@ -34,8 +34,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Fitbit Activity for 2017-02-03
 UID:Fitbit-Activity-20170203
-DTSTART;TZID=America/Toronto:20170203T235800
-DTEND;TZID=America/Toronto:20170203T235900
+DTSTART;TZID=America/Toronto:20170203T000000
+DTEND;TZID=America/Toronto:20170203T010000
 DESCRIPTION:	Activity Calories: 260\n
 	Distance: 1.44\n
 	Minutes Lightly Active: 85\n
@@ -49,8 +49,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Fitbit Activity for 2017-02-04
 UID:Fitbit-Activity-20170204
-DTSTART;TZID=America/Toronto:20170204T235800
-DTEND;TZID=America/Toronto:20170204T235900
+DTSTART;TZID=America/Toronto:20170204T000000
+DTEND;TZID=America/Toronto:20170204T010000
 DESCRIPTION:	Activity Calories: 867\n
 	Distance: 4.3\n
 	Minutes Lightly Active: 266\n

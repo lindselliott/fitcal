@@ -1,2 +1,14 @@
 # fitcal
-A CSV to ICS converter for raw exported Fitbit data. 
+_A CSV to ICS converter for raw exported Fitbit data._
+
+The purpose of this converter is to have a place where you can turn your exported Fitbit data and imported into whatever calendar you use on an everyday basis. Sometimes it's nice to keep things all in one place. 
+
+## How to Run: 
+To Run the converter just hop in the fitcal directory and use the path to your exported Fitbit data (.csv) as your first and only argument. 
+
+```
+python fitcal.py fitbit_export_file.csv
+```
+
+## Output:
+A .ics file will be exported in the same directory you are running the converter. You can use this file to import into your calendar and have all your data in one place.  

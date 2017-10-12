@@ -47,10 +47,10 @@ def write_event_property(ics_file, date):
 	#dtstamp = 'DTSTAMP:%sT120000Z\n' % date['Date']
 	#ics_file.write(dtstamp)
 
-	dtstart = 'DTSTART;TZID=America/Toronto:%sT235800\n' % date_str
+	dtstart = 'DTSTART;TZID=America/Toronto:%sT000000\n' % date_str
 	ics_file.write(dtstart)
 
-	dtend = 'DTEND;TZID=America/Toronto:%sT235900\n' % date_str
+	dtend = 'DTEND;TZID=America/Toronto:%sT010000\n' % date_str
 	ics_file.write(dtend)
 
 	ics_file.write("DESCRIPTION:")
