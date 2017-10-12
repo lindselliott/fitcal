@@ -2,7 +2,7 @@
 # Programmer: Lindsay Elliott
 # Title: Fitcal 
 # Description: A CSV to ICS converter for 
-#    raw exported Fitbit data.
+#    raw exported Fitbit data. 
 # ***************************************
 
 from datetime import datetime 
