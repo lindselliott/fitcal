@@ -1,8 +1,15 @@
+# ***************************************
+# Programmer: Lindsay Elliott
+# Title: Fitcal 
+# Description: A CSV to ICS converter for 
+#    raw exported Fitbit data.
+# ***************************************
+
 from datetime import datetime 
 import json 
-import pdb 
 import sys
 import csv 
+
 
 def read_fitbit_csv(fitbit_reader):
 	data = {} 
@@ -44,9 +51,6 @@ def write_event_property(ics_file, date):
 	uid = 'UID:Fitbit-Activity-%s\n' % date_str
 	ics_file.write(uid)
 
-	#dtstamp = 'DTSTAMP:%sT120000Z\n' % date['Date']
-	#ics_file.write(dtstamp)
-
 	dtstart = 'DTSTART;TZID=America/Toronto:%sT000000\n' % date_str
 	ics_file.write(dtstart)
 
@@ -63,7 +67,6 @@ def write_event_property(ics_file, date):
 
 	ics_file.write("END:VEVENT\n")
 
-
 def write_calendar_property(ics_file, data):
 	ics_file.write("BEGIN:VCALENDAR\n")
 	ics_file.write("PRODID:-//Mozilla.org/NONSGML Mozilla Calendar V1.1//EN\n")
@@ -74,14 +77,11 @@ def write_calendar_property(ics_file, data):
 
 	ics_file.write("END:VCALENDAR\n")
 
-
 def write_ics_file(data):
 	file = open("testing.ics", "w")
 	write_calendar_property(file, data)
 	file.close()
 
-	
-#-------------------------
 def main():
 	data = {} 
 	
@@ -91,7 +91,5 @@ def main():
 		data = read_fitbit_csv(fitbit_reader)
 
 	write_ics_file(data)
-
-
 
 main()
