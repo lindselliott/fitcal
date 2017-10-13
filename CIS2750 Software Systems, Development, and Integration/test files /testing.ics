@@ -1,0 +1,64 @@
+BEGIN:VCALENDAR
+PRODID:-//Mozilla.org/NONSGML Mozilla Calendar V1.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+SUMMARY:Fitbit Activity for 2017-02-01
+UID:Fitbit-Activity-20170201
+DTSTART;TZID=America/Toronto:20170201T000000
+DTEND;TZID=America/Toronto:20170201T010000
+DESCRIPTION:	Activity Calories: 862\n
+	Distance: 4.35\n
+	Minutes Lightly Active: 256\n
+	Minutes Very Active: 0\n
+	Minutes Sedentary: 1,184\n
+	Floors: 18\n
+	Steps: 6,017\n
+	Calories Burned: 2,134\n
+	Minutes Fairly Active: 0\n
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Fitbit Activity for 2017-02-02
+UID:Fitbit-Activity-20170202
+DTSTART;TZID=America/Toronto:20170202T000000
+DTEND;TZID=America/Toronto:20170202T010000
+DESCRIPTION:	Activity Calories: 1,023\n
+	Distance: 5.94\n
+	Minutes Lightly Active: 287\n
+	Minutes Very Active: 0\n
+	Minutes Sedentary: 1,153\n
+	Floors: 30\n
+	Steps: 8,218\n
+	Calories Burned: 2,286\n
+	Minutes Fairly Active: 0\n
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Fitbit Activity for 2017-02-03
+UID:Fitbit-Activity-20170203
+DTSTART;TZID=America/Toronto:20170203T000000
+DTEND;TZID=America/Toronto:20170203T010000
+DESCRIPTION:	Activity Calories: 260\n
+	Distance: 1.44\n
+	Minutes Lightly Active: 85\n
+	Minutes Very Active: 0\n
+	Minutes Sedentary: 1,355\n
+	Floors: 0\n
+	Steps: 1,998\n
+	Calories Burned: 1,658\n
+	Minutes Fairly Active: 0\n
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Fitbit Activity for 2017-02-04
+UID:Fitbit-Activity-20170204
+DTSTART;TZID=America/Toronto:20170204T000000
+DTEND;TZID=America/Toronto:20170204T010000
+DESCRIPTION:	Activity Calories: 867\n
+	Distance: 4.3\n
+	Minutes Lightly Active: 266\n
+	Minutes Very Active: 0\n
+	Minutes Sedentary: 1,174\n
+	Floors: 8\n
+	Steps: 5,941\n
+	Calories Burned: 2,104\n
+	Minutes Fairly Active: 0\n
+END:VEVENT
+END:VCALENDAR
